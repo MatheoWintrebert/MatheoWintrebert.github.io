@@ -175,10 +175,12 @@
             responsive: false,
 
           },
-          title: {
-            display: true,
-            text: 'Compétences par projet'
-          }
+          plugins: {
+            title: {
+                display: true,
+                text: 'Compétences du projet'
+            }
+        }
         });
         var ctx = document.getElementById("chartCompetence");
         var chartCompetence = new Chart(ctx, {
